@@ -59,7 +59,10 @@ def get_sector_data() -> pd.DataFrame:
     df = pd.read_csv(sector_data_path)
     return df
 
- #  test function
+'''
+test function 删掉，直接选中代码块右击Run in Interactive Window>Run Selection/Line in Interactive Window ( Ctrl+Shift+9 )
+# 把要测试的方法如get_stock_data("a", "2023-12-20", "2023-12-29"）输进去跑就可以了
+
 df_filtered = get_stock_data("a", "2023-12-20", "2023-12-29")
 print("\nFiltered Rows:\n", df_filtered)
 
@@ -67,5 +70,8 @@ print("\nFiltered Rows:\n", df_filtered)
 #  test function
 df_selected = get_sector_data()
 print("\nSelected Columns:\n", df_selected)
+
+'''
+
 
 
